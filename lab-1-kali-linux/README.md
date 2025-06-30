@@ -59,3 +59,8 @@ I learned how to:
 - Harden the system as an administrator learning network security.
 - Value the purpose of confidential information that can potentially be used for penetration testing.
 
+Note: 
+
+This README includes a selection of screenshots.  
+
+You can see the full set of screenshots in the [`screenshots/`](./screenshots) folder if you'd like.
