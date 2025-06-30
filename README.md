@@ -1,4 +1,4 @@
-Hi, I'm Prasoon!
+Hi, I'm Prasoon
 
 I'm a rising second year Computer Engineering student at Georgia Tech with a strong interest in cybersecurity. I'm motivated to protect data from cybercriminals in order for businesses to function safely and achieve their goals.
 
