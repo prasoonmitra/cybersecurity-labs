@@ -10,6 +10,7 @@ Purposes:
   - Network Security: Monitoring networks to detect cyber attacks or other suspicious activity.
 
 Environment Setup:
+![Installation Process](screenshots/installation_process.png)
 - Used Virtual box (https://www.virtualbox.org) and downloaded the version that matched my Ubuntu Linux version.
 - Installed VirtualBox on Ubuntu terminal using dpkg:
    - Command line: sudo dpkg -i <InstallFile>
