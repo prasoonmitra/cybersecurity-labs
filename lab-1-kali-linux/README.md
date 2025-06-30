@@ -31,7 +31,7 @@ Hardening Kali Linux:
 
 Information Gathering/Digital Forensics:
 ![Digital Forensics](screenshots/digital_forensics_used_for_pentesting.png)
-- Executed the whois keyword in the terminal, provides domain registration info on common websites, can be used forpenetration testing.
+- Executed the whois keyword in the terminal, provides domain registration info on common websites, can be used for penetration testing.
 - Nmap, used for network scanning and security:
    - Simulated basic and agressive scans to analyze vulnerabilities.
 
