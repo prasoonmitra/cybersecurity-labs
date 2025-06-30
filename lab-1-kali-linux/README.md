@@ -18,6 +18,7 @@ Environment Setup:
 - Download kali linux (kali.org) and imported it into the virtual machine.
 
 Hardening Kali Linux:
+![Hardening](screenshots/hardening_kali.png)
 - User Access Management: Simulated the concept of group access to directories so employees in the same role have the same level of access.
 - Firewall Manipulation: Preventing unathorized access to networks
 - Example of Command Lines executed in the terminal (opening ports such as 23 to mimic securing the infrastrucutre):
@@ -29,11 +30,15 @@ Hardening Kali Linux:
     sudo ufw status verbose
 
 Information Gathering/Digital Forensics:
+![Digital Forensics](screenshots/digital_forensics_used_for_pentesting.png)
 - Executed the whois keyword in the terminal, provides domain registration info on common websites, can be used forpenetration testing.
 - Nmap, used for network scanning and security:
    - Simulated basic and agressive scans to analyze vulnerabilities.
 
 Security coding:
+![Bash Script](screenshots/bash_script.png)
+![Disk Usage](screenshots/disk_usage.png)
+![Disk Usage Result](screenshots/disk_usage_result.png)
 - Wrote basic scripts using Python 3 to analyze disk usage on my computer.
 - Wrote scripts using Bash to automate system maintence tasks such as an update script:
     chmod +x update_upgrade.sh
@@ -53,5 +58,4 @@ I learned how to:
 - Apply Kali Linux tools to begin basic digital forensics and security cdoing/tasks including vulnerability analysis assessments.
 - Harden the system as an administrator learning network security.
 - Value the purpose of confidential information that can potentially be used for penetration testing.
-  
-  
+
