@@ -11,6 +11,7 @@ Purposes:
 
 Environment Setup:
 ![Installation Process](screenshots/installation_process.png)
+![VirtualBox](screenshots/virtual_box_main_page.png)
 - Used Virtual box (https://www.virtualbox.org) and downloaded the version that matched my Ubuntu Linux version.
 - Installed VirtualBox on Ubuntu terminal using dpkg:
    - Command line: sudo dpkg -i <InstallFile>
