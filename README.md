@@ -1,6 +1,8 @@
 Hi, I'm Prasoon
 
-I'm a rising second-year Computer Engineering student at Georgia Tech with a strong interest in data science.
+I'm a rising second-year Computer Engineering student at Georgia Tech with a strong interest in cybersecurity. I am motivated to protect data from cyber criminals in order to help businesses achieve their goals. 
+
+I value learning modern technologies such as the use of Artificial Intelligence to be defend against advanced cyber attacks.
 
 Connect with Me
 
