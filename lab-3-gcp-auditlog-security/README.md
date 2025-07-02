@@ -29,7 +29,7 @@ protopayload_auditlog.authenticationInfo.principalEmail AS user,
 protopayload_auditlog.serviceName AS service,
 protopayload_auditlog.methodName AS action,
 resource.type AS resource_type
-FROM `detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_20250702
+FROM detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_YYYYYYYY
 ORDER BY timestamp DESC
 LIMIT 100
 
@@ -40,7 +40,7 @@ protopayload_auditlog.authenticationInfo.principalEmail AS user: The email is re
 protopayload_auditlog.serviceName AS service : The GCP Service that was accessed is recorded and is stated under the "service" column
 protopayload_auditlog.methodName AS action : The GCP API method that was accessed is recorded and is stated under the "action" column
 resource.type AS resource_type: The type of resource that was accessed is recorded and is stated under the "resource_type" column
-FROM `detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_20250702: From my source table and project ID
+FROM `detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_YYYYYYYY: From my source table and project ID
 ORDER BY timestamp DESC: Orders the data by most recent activity first
 LIMIT 100: 100 records of data
 
@@ -54,7 +54,7 @@ timestamp,
 protopayload_auditlog.authenticationInfo.principalEmail AS user,
 protopayload_auditlog.methodName AS action,
 protopayload_auditlog.resourceName AS resource
-FROM `detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_20250702` 
+FROM detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_YYYYYYYY 
 WHERE protopayload_auditlog.methodName LIKE "%insert%"
 ORDER BY timestamp DESC
 
@@ -64,7 +64,7 @@ timestamp : the time when the action occured
 protopayload_auditlog.authenticationInfo.principalEmail AS user: The email is recorded and is stated under the "user" column
 protopayload_auditlog.methodName AS action: The GCP API method that was accessed is recorded and is stated under the "action" column
 protopayload_auditlog.resourceName AS resource: The full name of the resoruce that was accessed is recorded and is stated under the "resource_type" column
-FROM `detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_20250702 : From my source table and project ID
+FROM `detecting-login-patterns.audit_logs.cloudaudit_googleapis_com_activity_YYYYYYYY : From my source table and project ID
 WHERE protopayload_auditlog.methodName LIKE "%insert%" : Filters events based on the method having "insert" in its name - *new resource creation*
 ORDER BY timestamp DESC - Orders the data by most recent activity first
 
