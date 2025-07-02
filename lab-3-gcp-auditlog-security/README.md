@@ -10,7 +10,7 @@ Step 1: Make sure APIs are enabled
 
 
 Step 2: Creating the dataset (audit_logs) so we can see the logs that will be exported later on.
-
+![Dataset Creation](screenshots/creation_of_dataset.png)
 
 
 Step 3: Log Router to complete the process of exporting to BigQuery
@@ -18,9 +18,14 @@ Step 3: Log Router to complete the process of exporting to BigQuery
   - Selected Log Router and created the log routing sink
   - This provided the destination for the data to arrive at (BigQuery)
 
-Step 4: Query the audit logs in SQL that have arrived in BigQuery to find insights.
+![Log Routing Process](screenshots/log_routing_process.png)
+
+Step 4: Data has arrived so now we can query the audit logs in SQL to find insights.
+![Audit Log Data in BigQuery](screenshots/data_arrived_BigQuery.png)
+
 Purpose of Query 1: Showing the recent user activity in my GCP Project - useful for security analysts to monitor any suspicious activity
 
+![General Audit Log Query Result](screenshots/query1.png)
 
 Query:
 SELECT  
@@ -46,7 +51,7 @@ LIMIT 100: 100 records of data
 
 Purpose of Query 2: Showing the new resources that are created in my GCP Project - useful for detecting malicious activity
 
-
+![Resource Creation Query Result](screenshots/query2.png)
 
 Query:
 SELECT  
