@@ -1,6 +1,6 @@
 Hi, I'm Prasoon
 
-I'm a rising second-year Computer Engineering student at Georgia Tech interested in the intersection of hardware design and security.
+I'm a rising second-year Computer Engineering student at Georgia Tech interested in the integration of hardware design and security.
 
 Connect with Me
 
