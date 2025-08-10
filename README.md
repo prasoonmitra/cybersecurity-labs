@@ -1,6 +1,6 @@
 Hi, I'm Prasoon
 
-I'm a second-year Computer Engineering student at Georgia Tech with a strong interest in cybersecurity. I value learning AI/ML tools to ensure best security practices.
+I'm a second-year Computer Engineering student at Georgia Tech with a strong interest in Cybersecurity and Distributed System & Software design. I'm interested in conducting research  in ML and AI systems as well as applying these technologies in hardware and system security contexts.
 
 Connect with Me
 
